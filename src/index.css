@@ -1,3 +1,13 @@
+:root {
+  --main-text-color: #000000;
+  --footer-text-color: #fcfcfd;
+  --first-accent-color: #057f84;
+  --second-accent-color: #ffb188;
+  --theme-background: #fcfcfd;
+  --main-gray-color: #d9d9d9;
+  --theme-highlight-color: #ffb188;
+}
+
 body {
   margin: 0;
 }

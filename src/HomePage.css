@@ -1,0 +1,123 @@
+.HomePage h1 {
+  font-size: 3.33vw;
+  margin-bottom: 6.5vw;
+}
+
+.HomePage h2 {
+  font-size: 4.63vw;
+  line-height: 123%;
+}
+
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: fit-content;
+  padding: 2.08vw 4.16vw;
+}
+
+.HomePage .ThemeSwitch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.HomePage .theme-text {
+  font-size: 12px;
+}
+
+.HomePage .center-block {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 0;
+}
+
+.HomePage .text-block {
+  position: absolute;
+  left: 0;
+  margin: 4.42vw 0 0 7.8vw;
+}
+
+.HomePage img {
+  width: 38vw;
+}
+
+.HomePage .name {
+  font-size: 3.07vw;
+  color: var(--first-accent-color);
+  margin-bottom: 5.2vw;
+}
+
+.HomePage .profession {
+  font-size: 4.35vw;
+}
+
+.HomePage i {
+  position: absolute;
+  bottom: 2vw;
+  font-size: 2vw;
+  color: var(--main-gray-color);
+  animation: 1s ease-out 5s infinite alternate jumping_arrow;
+}
+
+/* Arrow animation */
+@keyframes jumping_arrow {
+  from {
+    bottom: 2vw;
+  }
+  to {
+    bottom: 3.5vw;
+  }
+}
+
+/* Underline hover text "Front-end Developer" */
+.HomePage .text-underline-fist-color {
+  background-size: 0;
+  transition: background-size 250ms ease-in-out;
+}
+
+.HomePage .text-underline-fist-color:hover {
+  background: linear-gradient(
+    transparent 50%,
+    var(--first-accent-color) 50%,
+    var(--first-accent-color) 85%,
+    transparent 85%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Homepage portrait orientation screen responsive */
+@media screen and (orientation: portrait) {
+  .HomePage h1 {
+    font-size: 5vw;
+  }
+  .HomePage h2 {
+    font-size: 6.5vw;
+  }
+  .HomePage .name {
+    font-size: 4.6vw;
+  }
+
+  .HomePage .profession {
+    font-size: 6vw;
+  }
+  .HomePage .center-block {
+    flex-direction: column;
+  }
+  .HomePage .text-block {
+    position: static;
+    text-align: center;
+    margin: 0;
+  }
+  .HomePage img {
+    width: auto;
+    max-width: 90%;
+    max-height: 50vh;
+    margin: 5vh auto;
+  }
+  .HomePage i {
+    font-size: 2vh;
+  }
+}
