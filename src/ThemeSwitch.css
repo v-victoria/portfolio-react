@@ -35,3 +35,22 @@
 .ThemeSwitch label:active:after {
   width: 30px;
 }
+
+.ThemeSwitch .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 5px;
+}
+
+.ThemeSwitch .icons svg {
+  height: 15px;
+  width: 15px;
+}
+.ThemeSwitch .icons .sun {
+  fill: #ff7b54;
+}
+.ThemeSwitch .icons .moon {
+  fill: #13293d;
+}
