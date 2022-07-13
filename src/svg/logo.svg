@@ -1,4 +1,9 @@
-<svg width="64" height="60" viewBox="0 0 64 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="62" height="58" rx="3" stroke="#FCFCFD" stroke-width="2"/>
-<path d="M20.95 32.425L16.05 21.4H11.75L20.95 40.425L30.1 21.4H25.8L20.95 32.425ZM35.4467 40V29.875L40.9967 36.125L46.5717 29.875V40H50.3217V20.975L41.0217 31.2L31.6967 20.975V40H35.4467Z" fill="#FCFCFD"/>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 60" style="enable-background:new 0 0 64 60;" xml:space="preserve">
+<g>
+	<path d="M60,60H4c-2.2,0-4-1.8-4-4V4c0-2.2,1.8-4,4-4h56c2.2,0,4,1.8,4,4v52C64,58.2,62.2,60,60,60z M4,2C2.9,2,2,2.9,2,4v52
+		c0,1.1,0.9,2,2,2h56c1.1,0,2-0.9,2-2V4c0-1.1-0.9-2-2-2H4z"/>
+</g>
+<path d="M21,32.4l-4.9-11h-4.3l9.2,19l9.1-19h-4.3L21,32.4z M35.4,40V29.9l5.5,6.2l5.6-6.2V40h3.8V21L41,31.2L31.7,21v19H35.4z"/>
 </svg>

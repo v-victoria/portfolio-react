@@ -8,8 +8,8 @@ export default function ThemeSwitch() {
   const [localStorageCheck, setLocalStorageCheck] = useState(false);
 
   function changeColorDark() {
-    // let navbarElem = document.querySelector(".navbar");
-    // navbarElem.classList.add("navbar-dark");
+    let navbarElem = document.querySelector(".navbar");
+    navbarElem.classList.add("navbar-dark");
     document.documentElement.style.setProperty("--main-text-color", "#fcfcfd");
     document.documentElement.style.setProperty("--theme-background", "#13293D");
     document.documentElement.style.setProperty(
@@ -19,9 +19,8 @@ export default function ThemeSwitch() {
   }
 
   function changeColorLight() {
-    // let navbarElem = document.querySelector(".navbar");
-
-    // navbarElem.classList.remove("navbar-dark");
+    let navbarElem = document.querySelector(".navbar");
+    navbarElem.classList.remove("navbar-dark");
     document.documentElement.style.setProperty("--main-text-color", "#000000");
     document.documentElement.style.setProperty("--theme-background", "#fcfcfd");
     document.documentElement.style.setProperty(
