@@ -6,7 +6,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 export default function HomePage() {
   return (
-    <div className="HomePage">
+    <div className="HomePage" id="home">
       <ThemeSwitch />
       <div className="center-block">
         <div className="text-block">

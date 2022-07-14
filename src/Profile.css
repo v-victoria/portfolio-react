@@ -1,0 +1,27 @@
+.Profile {
+  text-transform: uppercase;
+  margin: 120px 0;
+  font-size: 1vw;
+}
+.Profile ul {
+  list-style: none;
+  padding: 0;
+}
+.Profile li {
+  margin-bottom: 8px;
+}
+.Profile .line {
+  margin-bottom: 60px;
+}
+.Profile h4 {
+  text-align: right;
+  margin-right: 80px;
+  color: var(--second-switch-accent-color);
+  font-size: 1vw;
+}
+.Profile .accent {
+  color: var(--first-switch-accent-color);
+}
+.Profile i {
+  margin-right: 10px;
+}

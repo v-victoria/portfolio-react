@@ -16,6 +16,14 @@ export default function ThemeSwitch() {
       "--theme-highlight-color",
       "#13293D"
     );
+    document.documentElement.style.setProperty(
+      "--first-switch-accent-color",
+      "#ffb188"
+    );
+    document.documentElement.style.setProperty(
+      "--second-switch-accent-color",
+      "#057f84"
+    );
   }
 
   function changeColorLight() {
@@ -25,6 +33,14 @@ export default function ThemeSwitch() {
     document.documentElement.style.setProperty("--theme-background", "#fcfcfd");
     document.documentElement.style.setProperty(
       "--theme-highlight-color",
+      "#ffb188"
+    );
+    document.documentElement.style.setProperty(
+      "--first-switch-accent-color",
+      "#057f84"
+    );
+    document.documentElement.style.setProperty(
+      "--second-switch-accent-color",
       "#ffb188"
     );
   }

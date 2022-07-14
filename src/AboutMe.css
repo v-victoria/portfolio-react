@@ -1,0 +1,28 @@
+.AboutMe {
+  min-height: 100vh;
+  height: fit-content;
+  padding: 2.08vw 4.16vw;
+  font-size: 1.3vw;
+}
+
+.AboutMe h3 {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 56px;
+}
+
+.AboutMe .info-block {
+  max-width: 1500px;
+  margin: 90px auto;
+}
+.AboutMe .info-block p {
+  margin-bottom: 24px;
+}
+.AboutMe img {
+  width: 100%;
+  padding-right: 30px;
+}
+.AboutMe a {
+  color: var(--link-color);
+  text-decoration: none;
+}
