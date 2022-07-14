@@ -1,3 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 5040362, 2022-06-02T06:09:24-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AlbulaPro-Bold by Serpentype
+ * URL: https://www.myfonts.com/fonts/serpentype/albula-pro/bold/
+ * Copyright: Copyright © 2018 by Silvio Meier. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+@font-face {
+  font-family: "AlbulaPro-Bold";
+  src: url("webFonts/AlbulaProBold/font.woff2") format("woff2"),
+    url("webFonts/AlbulaProBold/font.woff") format("woff");
+}
+
 :root {
   --main-text-color: #000000;
   --footer-text-color: #fcfcfd;
@@ -9,6 +34,8 @@
 }
 
 body {
+  font-family: "Nunito Sans", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
   margin: 0;
   color: var(--main-text-color);
   background: var(--theme-background);
@@ -19,4 +46,11 @@ body::before {
   color: var(--main-text-color);
   background: var(--theme-background);
   transition: color 0.3s ease, background 0.3s ease;
+}
+h3,
+h4,
+h5,
+.name,
+.profession {
+  font-family: "AlbulaPro-Bold", Verdana, Geneva, Tahoma, sans-serif;
 }

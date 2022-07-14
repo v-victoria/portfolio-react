@@ -1,0 +1,46 @@
+.navbar,
+.container-fluid,
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar {
+  box-shadow: 0px 7px 9px rgb(0 0 0 / 15%);
+  background: var(--theme-background);
+}
+
+.navbar-brand svg {
+  width: 48px;
+  height: 45px;
+  display: inline-block;
+  margin-left: 3.5vw;
+  fill: var(--main-text-color);
+}
+
+.navbar-nav {
+  margin-right: 2vw;
+  align-self: flex-end;
+}
+
+.nav-link {
+  width: fit-content;
+  color: var(--main-text-color) !important;
+  margin: 0 16px;
+  padding: 4px 15px !important;
+}
+
+.active {
+  border: 1px solid var(--main-gray-color);
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  width: 48px;
+  margin-right: 3.5vw;
+  padding: 5px;
+  border: none;
+}
+
+.navbar-size-replace {
+  height: 61px;
+}
