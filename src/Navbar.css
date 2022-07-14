@@ -15,6 +15,7 @@
   display: inline-block;
   margin-left: 3.5vw;
   fill: var(--main-text-color);
+  vertical-align: baseline;
 }
 
 .navbar-nav {
@@ -30,8 +31,7 @@
 }
 
 .active {
-  border: 1px solid var(--main-gray-color);
-  border-radius: 4px;
+  font-weight: 900;
 }
 
 .navbar-toggler {

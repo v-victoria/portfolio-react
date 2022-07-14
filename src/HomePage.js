@@ -16,7 +16,7 @@ export default function HomePage() {
           <h2>
             I'm a{" "}
             <span className="profession text-underline-fist-color">
-              Front-end Developer
+              Full Stack Developer
             </span>
             <br />
             based in England.

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="portfolio" id="projects">
+    <div className="Projects" id="projects">
       <h3 className="portfolio-title">Portfolio</h3>
       <div className="portfolio-title-description">
         A selection of my personal website
@@ -27,13 +27,13 @@ export default function Projects() {
             Built with HTML, CSS/Bootstrap, JavaScript
           </p>
           <div className="project-links">
-            <a href="#" className="btn-fill">
+            <a href="/" className="btn-fill">
               You are here ;)
             </a>
-            <a href="" className="btn-transparent">
+            <a href="/" className="btn-transparent">
               Project Info
             </a>
-            <a href="">
+            <a href="/">
               <i className="fa-brands fa-github"></i>
             </a>
           </div>
@@ -59,13 +59,13 @@ export default function Projects() {
             Built with HTML, CSS/Bootstrap, JavaScript, API/Axios
           </p>
           <div className="project-links">
-            <a href="#" className="btn-fill">
+            <a href="/" className="btn-fill">
               Launch project
             </a>
-            <a href="" className="btn-transparent">
+            <a href="/" className="btn-transparent">
               Project Info
             </a>
-            <a href="">
+            <a href="/">
               <i className="fa-brands fa-github"></i>
             </a>
           </div>
