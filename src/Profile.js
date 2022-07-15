@@ -11,10 +11,10 @@ export default function Profile() {
         <div className="col-8">
           <div className="row mb-4">
             <div className="col-6">
-              <i class="fa-solid fa-location-dot"></i>Banbury, England
+              <i className="fa-solid fa-location-dot"></i>Banbury, England
             </div>
             <div className="col-6">
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
               <a href="https://www.linkedin.com/in/victoria-martynenko/">
                 linkedin/victoria-martynenko
               </a>
@@ -22,27 +22,28 @@ export default function Profile() {
           </div>
           <div className="row mb-4 accent">
             <div className="col-6">
-              <i class="fa-solid fa-graduation-cap"></i>Dnipropetrovsk National
-              University of Railway Transport
+              <i className="fa-solid fa-graduation-cap"></i>Dnipropetrovsk
+              National University of Railway Transport
             </div>
             <div className="col-6">
-              <i class="fa-solid fa-briefcase"></i>SOFTWARE ENGINEER
+              <i className="fa-solid fa-briefcase"></i>SOFTWARE ENGINEER
             </div>
           </div>
           <div className="row mb-4">
             <div className="col-6">
-              <i class="fa-solid fa-cube"></i>Computer Academy “STEP”
+              <i className="fa-solid fa-cube"></i>Computer Academy “STEP”
             </div>
             <div className="col-6">
-              <i class="fa-solid fa-briefcase"></i>Computer graphics and design
+              <i className="fa-solid fa-briefcase"></i>Computer graphics and
+              design
             </div>
           </div>
           <div className="row accent">
             <div className="col-6">
-              <i class="fa-solid fa-laptop-code"></i>SheCodes
+              <i className="fa-solid fa-laptop-code"></i>SheCodes
             </div>
             <div className="col-6">
-              <i class="fa-solid fa-briefcase"></i>full stack web developer
+              <i className="fa-solid fa-briefcase"></i>full stack web developer
             </div>
           </div>
         </div>

@@ -1,0 +1,34 @@
+.Button {
+  margin-top: 30px;
+}
+.Button .btn-fill,
+.Button .btn-transparent {
+  display: block;
+  font-size: 1.3vw;
+  text-align: center;
+  text-decoration: none;
+  min-width: 12.5vw;
+  height: 3.9vw;
+  padding: 0.8vw;
+  border: 2px solid var(--first-accent-color);
+  border-radius: 0.62vw;
+}
+
+.Button .btn-fill {
+  background: var(--first-accent-color);
+  color: var(--footer-text-color);
+}
+.Button .btn-fill:hover {
+  color: var(--footer-text-color);
+}
+.Button .btn-transparent {
+  color: var(--first-accent-color);
+  background: var(--theme-background);
+}
+.Button .btn-transparent:hover {
+  color: var(--first-accent-color);
+}
+.Button i {
+  font-size: 3.9vw;
+  color: var(--first-accent-color);
+}

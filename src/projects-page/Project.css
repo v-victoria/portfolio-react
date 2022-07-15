@@ -1,0 +1,46 @@
+.Project {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+.Project h5 {
+  font-size: 2.9vw;
+  color: var(--first-accent-color);
+  margin-bottom: 2.6vw;
+}
+
+.Project h6 {
+  font-family: "CynthoNext-Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  margin-bottom: 0.53vw;
+}
+
+.Project .project-img {
+  width: 45vw;
+  height: 27vw;
+  border-radius: 1.25vw 1.25vw 0.62vw 0.62vw;
+  box-shadow: 0px 0.62vw 0.62vw rgba(0, 0, 0, 0.25);
+  align-self: center;
+}
+
+.Project .project-info {
+  width: 35vw;
+  align-self: center;
+}
+
+.Project .project-description,
+.Project .tech-features {
+  font-size: 1.7vw;
+  line-height: 130%;
+}
+.Project .project-description {
+  margin-bottom: 1.56vw;
+}
+.Project .tech-features {
+  color: var(--second-accent-color);
+}
+.Project .project-links {
+  display: flex;
+  justify-content: space-between;
+}

@@ -57,3 +57,9 @@ h5,
 .profession {
   font-family: "AlbulaPro-Bold", Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.AboutMe,
+.Projects {
+  min-height: 100vh;
+  padding: 96px 4.16vw;
+}
