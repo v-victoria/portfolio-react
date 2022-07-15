@@ -6,7 +6,7 @@ import Profile from "./Profile";
 export default function AboutMe() {
   return (
     <div className="AboutMe" id="about-me">
-      <h3>About Me </h3>
+      <h3>About Me</h3>
       <div className="info-block">
         <div className="row">
           <div className="col-4">

@@ -36,6 +36,9 @@ export default function Navbar() {
               <a className="nav-link" href="#projects" id="nav-projects">
                 Projects
               </a>
+              <a className="nav-link" href="#projects" id="nav-projects">
+                Experience
+              </a>
               <a className="nav-link" href="#contacts" id="nav-contacts">
                 Contacts
               </a>

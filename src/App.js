@@ -4,6 +4,7 @@ import HomePage from "./HomePage";
 import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Projects from "./projects-page/Projects";
+import Experience from "./experience-page/Experience";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <AboutMe />
       <Projects />
+      <Experience />
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.Experience h3 {
+  text-align: center;
+}
+
+.Experience .experience-block {
+  margin: 90px 0;
+  font-size: 1.3vw;
+}
+.Experience li i {
+  color: var(--first-accent-color);
+  margin-right: 10px;
+}
+.Experience .header {
+  margin: 90px 0 60px;
+  display: flex;
+  justify-content: center;
+}
+.Experience .job {
+  color: var(--second-accent-color);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Experience .years {
+  position: absolute;
+  left: 4.16vw;
+}
+.Experience .skill-header {
+  font-size: 1.5vw;
+  color: var(--first-accent-color);
+  font-weight: bold;
+}
