@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import aboutMeImg from "./svg/personal_information.svg";
+import aboutMeImg from "../svg/personal_information.svg";
 import Profile from "./Profile";
 
 export default function AboutMe() {

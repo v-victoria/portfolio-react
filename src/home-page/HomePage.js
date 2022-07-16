@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-import homeImg from "./svg/homepage-img.svg";
+import homeImg from "../svg/homepage-img.svg";
 
 import ThemeSwitch from "./ThemeSwitch";
 

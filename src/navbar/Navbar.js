@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { ReactComponent as Logo } from "./svg/logo.svg";
+import { ReactComponent as Logo } from "../svg/logo.svg";
 
 export default function Navbar() {
   return (

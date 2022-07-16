@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import HomePage from "./HomePage";
-import Navbar from "./Navbar";
-import AboutMe from "./AboutMe";
+import HomePage from "./home-page/HomePage";
+import Navbar from "./navbar/Navbar";
+import AboutMe from "./about-me-page/AboutMe";
 import Projects from "./projects-page/Projects";
 import Experience from "./experience-page/Experience";
 
