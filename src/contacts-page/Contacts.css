@@ -1,0 +1,85 @@
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100vh;
+  color: var(--footer-text-color);
+  text-align: center;
+  font-size: 1.7vw;
+}
+.Contacts .get-in-touch {
+  position: relative;
+  top: 1px;
+}
+
+.Contacts .get-in-touch p {
+  color: var(--main-text-color);
+  position: relative;
+  top: 8vw;
+}
+
+.Contacts .contact-content {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  background: var(--first-accent-color);
+}
+.Contacts .contact-content p {
+  margin: 4.5vh 0 5.4vh;
+}
+
+.Contacts .email-info {
+  font-size: 2.9vw;
+  margin-bottom: 5.4vh;
+}
+
+.Contacts .email-info a {
+  color: var(--footer-text-color);
+}
+
+/* Underline hover email*/
+.Contacts .email-info span {
+  background-size: 0;
+  transition: background-size 250ms ease-in-out;
+}
+
+.Contacts .email-info span:hover {
+  background: linear-gradient(
+    transparent 50%,
+    var(--theme-highlight-color) 50%,
+    var(--theme-highlight-color) 85%,
+    transparent 85%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.Contacts .contact-icons {
+  display: inline-flex;
+  align-self: center;
+}
+.Contacts .contact-icons a {
+  color: var(--footer-text-color);
+  font-size: 4vw;
+  margin: 0 2.8vw;
+  align-self: center;
+  display: inline-flex;
+  text-decoration: none;
+}
+.Contacts .contact-icons img {
+  height: 3.6vw;
+}
+
+.Contacts .copyright {
+  font-size: 1vw;
+  margin: auto 0 10vh;
+  text-align: center;
+}
+.Contacts .copyright a {
+  color: var(--second-accent-color);
+}
+
+.Contacts .email {
+  font-size: 2.5vw;
+}

@@ -27,7 +27,7 @@
   width: fit-content;
   color: var(--main-text-color) !important;
   margin: 0 16px;
-  padding: 4px 15px !important;
+  padding: 4px 8px !important;
 }
 
 .active {

@@ -4,7 +4,7 @@ import "./Experience.css";
 
 export default function Experience() {
   return (
-    <div className="Experience">
+    <div className="Experience" id="experience">
       <h3>My Background</h3>
       <div className="experience-block">
         {experience.map((item, index) => {
@@ -21,7 +21,7 @@ export default function Experience() {
                     {item.skills.map((skill, i) => {
                       return (
                         <li key={i}>
-                          <i class="fa-solid fa-check"></i>
+                          <i className="fa-solid fa-check"></i>
                           {skill}
                         </li>
                       );

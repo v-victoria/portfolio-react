@@ -54,7 +54,8 @@ h3,
 h4,
 h5,
 .name,
-.profession {
+.profession,
+.email {
   font-family: "AlbulaPro-Bold", Verdana, Geneva, Tahoma, sans-serif;
 }
 

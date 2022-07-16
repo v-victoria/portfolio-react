@@ -21,9 +21,8 @@ export default function AboutMe() {
               currently live in England.
             </p>
             <p>
-              Graduated from the university with a degree in software
-              engineering. At the same time, I studied computer graphics and
-              design courses.
+              Graduated from university with a degree in software engineering.
+              At the same time, I studied computer graphics and design courses.
             </p>
             <p>
               I like drawing, listening to music, and reading new scientific
@@ -42,9 +41,10 @@ export default function AboutMe() {
               .
             </p>
             <p>
-              Now I realized that I am satisfied with my achievements in the
-              field of computer graphics and decided to return to my main
-              profession - <b>programming</b>, for new achievements.
+              I have realised that I am satisfied with my achievements in the
+              field of computer graphics and have decided to return to my main
+              profession - <b>programming</b>, to be challenged and see new
+              achievements.
             </p>
             <p>
               I completed the SheCodes courses towards{" "}
