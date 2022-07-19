@@ -1,3 +1,20 @@
+.ThemeSwitch {
+  width: 30px;
+  margin-right: 2vw;
+  align-self: center;
+}
+.ThemeSwitch button {
+  background: none;
+  border: none;
+  width: inherit;
+}
+
+.ThemeSwitch .fixed {
+  position: absolute;
+  top: -99vh;
+  right: 4.16vw;
+}
+
 .ThemeSwitch input[type="checkbox"] {
   height: 0;
   width: 0;
@@ -48,9 +65,9 @@
   height: 15px;
   width: 15px;
 }
-.ThemeSwitch .icons .sun {
+.ThemeSwitch .sun {
   fill: #ff7b54;
 }
-.ThemeSwitch .icons .moon {
+.ThemeSwitch .moon {
   fill: #13293d;
 }

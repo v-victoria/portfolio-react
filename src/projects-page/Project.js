@@ -4,7 +4,7 @@ import "./Project.css";
 
 export default function Project({ project }) {
   return (
-    <div className="Project">
+    <div className={"Project " + project.class}>
       <img
         src={require("" + project.img)}
         alt={project.name}
@@ -17,7 +17,7 @@ export default function Project({ project }) {
         <p className="tech-features">{project.tech}</p>
         {project.buttons.map((buttonsRow, index) => {
           return (
-            <div key={index} className="project-links">
+            <div key={index} className="project-links row">
               {buttonsRow.map((button, i) => {
                 return <Button key={i} button={button} />;
               })}

@@ -12,6 +12,21 @@
   top: 1px;
 }
 
+.Contacts .get-in-touch .resume {
+  margin: 0 0 250px;
+  font-size: 2.5vw;
+}
+
+.Contacts .get-in-touch span {
+  color: var(--first-accent-color);
+  font-weight: 700;
+}
+
+.Contacts .get-in-touch .love {
+  color: var(--second-accent-color);
+  font-weight: 700;
+}
+
 .Contacts .get-in-touch p {
   color: var(--main-text-color);
   position: relative;
@@ -30,7 +45,7 @@
 
 .Contacts .email-info {
   font-size: 2.9vw;
-  margin-bottom: 5.4vh;
+  margin: 15vh 0 5.4vh;
 }
 
 .Contacts .email-info a {

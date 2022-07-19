@@ -1,6 +1,7 @@
 export const projects = [
   {
-    img: "./img/portfolio-web.png",
+    class: "portfolio-website",
+    img: "./img/portfolio-web-light.png",
     header: "Project made on SheCodes course",
     name: "Portfolio Website",
     description:
@@ -8,13 +9,13 @@ export const projects = [
     tech: "Built with HTML, CSS/Bootstrap, JavaScript",
     buttons: [
       [
-        { style: "fill", name: "You are here ;)", href: "/" },
-        { style: "transparent", name: "Project Info", href: "/" },
+        { style: "fill", name: "You are here", href: "/" },
         { style: "github", href: "/" },
       ],
     ],
   },
   {
+    class: "weather-app",
     img: "./img/weather-app.png",
     header: "Project made on SheCodes course",
     name: "Weather App",
@@ -24,17 +25,16 @@ export const projects = [
     buttons: [
       [
         { style: "fill", name: "Launch project", href: "/" },
-        { style: "transparent", name: "Project Info", href: "/" },
         { style: "github", href: "/" },
       ],
       [
         { style: "fill", name: "Launch React project", href: "/" },
-        { style: "transparent", name: "Project Info", href: "/" },
         { style: "github", href: "/" },
       ],
     ],
   },
   {
+    class: "oil-paint-shop",
     img: "./img/oil-paint-shop.png",
     header: "The first project on SheCodes Basic course",
     name: "Oil Paint Shop",

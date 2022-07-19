@@ -17,10 +17,13 @@
   fill: var(--main-text-color);
   vertical-align: baseline;
 }
-
+.reverse {
+  display: flex;
+}
 .navbar-nav {
   margin-right: 2vw;
   align-self: flex-end;
+  align-items: center;
 }
 
 .nav-link {
@@ -43,4 +46,11 @@
 
 .navbar-size-replace {
   height: 61px;
+}
+
+@media (max-width: 767px) {
+  .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }

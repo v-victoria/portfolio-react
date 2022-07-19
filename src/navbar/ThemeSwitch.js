@@ -3,12 +3,14 @@ import "./ThemeSwitch.css";
 import { ReactComponent as MoonIcon } from "../svg/moon.svg";
 import { ReactComponent as SunIcon } from "../svg/sun.svg";
 
-export default function ThemeSwitch() {
+export default function ThemeSwitch({ compactSwitch }) {
   const [isEnabled, setIsEnabled] = useState(false);
   const [localStorageCheck, setLocalStorageCheck] = useState(false);
 
   function changeColorDark() {
     let navbarElem = document.querySelector(".navbar");
+    let portfolioImg = document.querySelector(".portfolio-website img");
+    portfolioImg.src = require("../projects-page/img/portfolio-web-dark.png");
     navbarElem.classList.add("navbar-dark");
     document.documentElement.style.setProperty("--main-text-color", "#fcfcfd");
     document.documentElement.style.setProperty("--theme-background", "#13293D");
@@ -28,6 +30,8 @@ export default function ThemeSwitch() {
 
   function changeColorLight() {
     let navbarElem = document.querySelector(".navbar");
+    let portfolioImg = document.querySelector(".portfolio-website img");
+    portfolioImg.src = require("../projects-page/img/portfolio-web-light.png");
     navbarElem.classList.remove("navbar-dark");
     document.documentElement.style.setProperty("--main-text-color", "#000000");
     document.documentElement.style.setProperty("--theme-background", "#fcfcfd");
@@ -71,21 +75,36 @@ export default function ThemeSwitch() {
   function toggleState() {
     setIsEnabled(!isEnabled);
   }
-
-  return (
-    <div className="ThemeSwitch">
-      <input
-        type="checkbox"
-        id="switch"
-        checked={isEnabled}
-        onChange={toggleState}
-      />
-      <label htmlFor="switch">
-        <div className="icons">
-          <SunIcon className="sun" />
-          <MoonIcon className="moon" />
+  if (compactSwitch) {
+    return (
+      <div className="ThemeSwitch">
+        <button onClick={toggleState}>
+          {isEnabled ? (
+            <SunIcon className="sun" />
+          ) : (
+            <MoonIcon className="moon" />
+          )}
+        </button>
+      </div>
+    );
+  } else {
+    return (
+      <div className="ThemeSwitch fixed">
+        <div className="fixed">
+          <input
+            type="checkbox"
+            id="switch"
+            checked={isEnabled}
+            onChange={toggleState}
+          />
+          <label htmlFor="switch">
+            <div className="icons">
+              <SunIcon className="sun" />
+              <MoonIcon className="moon" />
+            </div>
+          </label>
         </div>
-      </label>
-    </div>
-  );
+      </div>
+    );
+  }
 }

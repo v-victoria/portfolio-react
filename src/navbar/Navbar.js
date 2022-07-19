@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { ReactComponent as Logo } from "../svg/logo.svg";
+import ThemeSwitch from "./ThemeSwitch";
 
 export default function Navbar() {
+  const [compactSwitch, setCompactSwitch] = useState(false);
   function clearNavActiveLinks() {
     document.querySelectorAll(".nav-link").forEach((el) => {
       if (el.classList.contains("active")) {
@@ -16,6 +18,13 @@ export default function Navbar() {
     let navbarSizeReplaceElem = document.querySelector(".navbar-size-replace");
 
     let scrollDistance = window.scrollY;
+    let navbarHeight = document.querySelector(".navbar").clientHeight;
+
+    if (navbarHeight <= scrollDistance) {
+      setCompactSwitch(true);
+    } else {
+      setCompactSwitch(false);
+    }
 
     if (scrollDistance > window.innerHeight) {
       // Fix navbar at the top
@@ -32,8 +41,6 @@ export default function Navbar() {
       let projectsElem = document.querySelector("#projects");
       let experienceElem = document.querySelector("#experience");
       let contactsElem = document.querySelector("#contacts");
-
-      let navbarHeight = document.querySelector(".navbar").clientHeight;
 
       // set the active menu item depending on the scroll distance
       if (aboutMeElem.offsetTop - navbarHeight <= scrollDistance) {
@@ -65,39 +72,45 @@ export default function Navbar() {
           <a className="navbar-brand mt-2" href="#home">
             <Logo />
           </a>
-
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div
-            className="collapse navbar-collapse justify-content-end"
-            id="navbarNavAltMarkup"
-          >
-            <div className="navbar-nav">
-              <a className="nav-link" aria-current="page" href="#home">
-                Home
-              </a>
-              <a className="nav-link active" href="#about-me" id="nav-about-me">
-                About me
-              </a>
-              <a className="nav-link" href="#projects" id="nav-projects">
-                Projects
-              </a>
-              <a className="nav-link" href="#experience" id="nav-experience">
-                Experience
-              </a>
-              <a className="nav-link" href="#contacts" id="nav-contacts">
-                Contacts
-              </a>
+          <div className="reverse">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div className="navbar-nav">
+                <a className="nav-link" aria-current="page" href="#home">
+                  Home
+                </a>
+                <a
+                  className="nav-link active"
+                  href="#about-me"
+                  id="nav-about-me"
+                >
+                  About me
+                </a>
+                <a className="nav-link" href="#projects" id="nav-projects">
+                  Projects
+                </a>
+                <a className="nav-link" href="#experience" id="nav-experience">
+                  Experience
+                </a>
+                <a className="nav-link" href="#contacts" id="nav-contacts">
+                  Contacts
+                </a>
+              </div>
             </div>
+            <ThemeSwitch compactSwitch={compactSwitch} />
           </div>
         </div>
       </nav>

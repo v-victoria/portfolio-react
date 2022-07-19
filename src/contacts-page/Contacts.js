@@ -5,14 +5,21 @@ export default function Contacts() {
   return (
     <footer className="Contacts" id="contacts">
       <div className="get-in-touch">
-        <p>Get in touch</p>
+        <p className="resume">
+          I believe it’s important to <span className="love">love</span> doing
+          what you do,
+          <br />
+          so the passion will continue to <span>motivate</span>
+          <br />
+          and <span>improve</span> yourself.
+        </p>
+        <p>Let's get in touch</p>
         <img
           src={require("../svg/contacts-decor-background.svg").default}
           alt="Decor background"
         />
       </div>
       <div className="contact-content">
-        <p>I’m always up for a chat.</p>
         <div className="email-info">
           <a href="mailto:i.v.v@live.com">Please do contact me</a> at{" "}
           <span className="email">i.v.v@live.com</span>
