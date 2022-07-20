@@ -5,13 +5,12 @@ export default function Contacts() {
   return (
     <footer className="Contacts" id="contacts">
       <div className="get-in-touch">
-        <p className="resume">
+        <p className="resume ms-4 me-4 ms-sm-0 me-sm-0">
           I believe it’s important to <span className="love">love</span> doing
-          what you do,
-          <br />
-          so the passion will continue to <span>motivate</span>
-          <br />
-          and <span>improve</span> yourself.
+          what you do, <br className="d-none d-sm-block" /> so the passion will
+          continue to <span>motivate</span>
+          <br className="d-none d-sm-block" /> and <span>improve</span>{" "}
+          yourself.
         </p>
         <p>Let's get in touch</p>
         <img
