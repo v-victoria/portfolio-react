@@ -15,7 +15,11 @@ export default function Profile() {
             </div>
             <div className="col-6">
               <i className="fa-brands fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/victoria-martynenko/">
+              <a
+                href="https://www.linkedin.com/in/victoria-martynenko/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 linkedin/victoria-martynenko
               </a>
             </div>

@@ -17,28 +17,6 @@ export const projects = [
     ],
   },
   {
-    class: "dictionary",
-    img: "./img/dictionary.png",
-    header: "Project made on SheCodes course",
-    name: "Dictionary",
-    description:
-      "Look up words in the dictionary and discover all meanings with examples and synonyms, listen to audio with correct pronunciation, phonetics and photos. All these features were implemented using React, API(axios) and bootstrap.",
-    tech: "Built with HTML, CSS/Bootstrap, JavaScript, React",
-    buttons: [
-      [
-        {
-          style: "fill",
-          name: "Launch project",
-          href: "https://friendly-sorbet-75c8cf.netlify.app/",
-        },
-        {
-          style: "github",
-          href: "https://github.com/v-victoria/dictionary-react",
-        },
-      ],
-    ],
-  },
-  {
     class: "weather-app",
     img: "./img/weather-app.png",
     header: "Project made on SheCodes course",
@@ -67,6 +45,28 @@ export const projects = [
         {
           style: "github",
           href: "https://github.com/v-victoria/weather-app-react",
+        },
+      ],
+    ],
+  },
+  {
+    class: "dictionary",
+    img: "./img/dictionary.png",
+    header: "Project made on SheCodes course",
+    name: "Dictionary",
+    description:
+      "Look up words in the dictionary and discover all meanings with examples and synonyms, listen to audio with correct pronunciation, phonetics and photos. All these features were implemented using React, API(axios) and bootstrap.",
+    tech: "Built with HTML, CSS/Bootstrap, JavaScript, React",
+    buttons: [
+      [
+        {
+          style: "fill",
+          name: "Launch project",
+          href: "https://friendly-sorbet-75c8cf.netlify.app/",
+        },
+        {
+          style: "github",
+          href: "https://github.com/v-victoria/dictionary-react",
         },
       ],
     ],
