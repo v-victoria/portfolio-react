@@ -1,6 +1,4 @@
 .Project {
-  display: flex;
-  justify-content: space-between;
   min-height: 100vh;
   padding: 50px 0;
 }
@@ -40,12 +38,43 @@
 .Project .tech-features {
   color: var(--second-accent-color);
 }
-.Project .project-links {
-  display: flex;
-  justify-content: space-between;
-}
+
 @media screen and (orientation: portrait) {
   .Project {
     min-height: fit-content;
+  }
+}
+@media (max-width: 1200px) {
+  .Project h5 {
+    font-size: 38px;
+  }
+
+  .Project h6 {
+    font-size: 12px;
+  }
+
+  .Project .project-description,
+  .Project .tech-features {
+    font-size: 14px;
+  }
+  .Project .project-info {
+    width: 42vw;
+    align-self: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .Project .project-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .Project .project-img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .Project .project-description {
+    margin-bottom: 16px;
   }
 }

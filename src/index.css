@@ -86,10 +86,15 @@ ul {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 767.98px) {
   h3 {
     font-size: 38px;
     margin-top: 50px;
     text-align: center;
+  }
+  .AboutMe,
+  .Projects,
+  .Experience {
+    padding: 45px 30px;
   }
 }

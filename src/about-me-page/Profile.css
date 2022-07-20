@@ -25,6 +25,7 @@
 @media (max-width: 1200px) {
   .Profile {
     font-size: 12px;
+    margin: 90px 0 0;
   }
   .Profile h4 {
     font-size: 12px;

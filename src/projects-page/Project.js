@@ -4,7 +4,12 @@ import "./Project.css";
 
 export default function Project({ project }) {
   return (
-    <div className={"Project " + project.class}>
+    <div
+      className={
+        "Project d-flex flex-column flex-md-row justify-content-between " +
+        project.class
+      }
+    >
       <img
         src={require("" + project.img)}
         alt={project.name}

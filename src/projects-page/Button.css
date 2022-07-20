@@ -32,3 +32,17 @@
   font-size: 3.9vw;
   color: var(--first-accent-color);
 }
+
+@media (max-width: 1200px) {
+  .Button .btn-fill,
+  .Button .btn-transparent {
+    font-size: 14px;
+    height: 45px;
+    border: 1px solid var(--first-accent-color);
+    border-radius: 8px;
+    padding: 10px 0;
+  }
+  .Button i {
+    font-size: 45px;
+  }
+}

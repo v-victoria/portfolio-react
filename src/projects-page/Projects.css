@@ -8,3 +8,12 @@
   font-size: 2.9vw;
   text-align: center;
 }
+@media (max-width: 1200px) {
+  .Projects .portfolio-title {
+    font-size: 14px;
+  }
+
+  .Projects .portfolio-title-description {
+    font-size: 32px;
+  }
+}

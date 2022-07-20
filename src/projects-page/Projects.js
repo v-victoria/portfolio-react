@@ -8,8 +8,7 @@ export default function Projects() {
     <div className="Projects" id="projects">
       <h3 className="portfolio-title">Portfolio</h3>
       <div className="portfolio-title-description">
-        A selection of my personal website
-        <br />
+        A selection of my personal website <br className="d-none d-sm-block" />
         and app projects
       </div>
       {projects.map((project, index) => {
