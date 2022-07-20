@@ -8,7 +8,7 @@ export default function Profile() {
         <div className="col-4">
           <h4>Profile</h4>
         </div>
-        <div className="col-8">
+        <div className="col-8 fw-semibold">
           <div className="row mb-4">
             <div className="col-6">
               <i className="fa-solid fa-location-dot"></i>Banbury, England
@@ -52,7 +52,7 @@ export default function Profile() {
         <div className="col-4">
           <h4>Expertise</h4>
         </div>
-        <div className="col-2">
+        <div className="col-2 fw-semibold">
           <ul>
             <li>JAVASCRIPT</li>
             <li>HTML</li>
@@ -60,7 +60,7 @@ export default function Profile() {
             <li>REACT</li>
           </ul>
         </div>
-        <div className="col-2">
+        <div className="col-2 fw-semibold">
           <ul>
             <li>NODE JS</li>
             <li>API</li>
@@ -68,7 +68,7 @@ export default function Profile() {
             <li>Flexbox</li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-4 fw-semibold">
           <ul>
             <li>SEO</li>
             <li>Responsive</li>
@@ -79,13 +79,13 @@ export default function Profile() {
         <div className="col-4">
           <h4>Tech Tools</h4>
         </div>
-        <div className="col-4">
+        <div className="col-4 fw-semibold">
           <ul>
             <li>Visual Studio Code</li>
             <li>GITHUB</li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-4 fw-semibold">
           <ul>
             <li>FIGMA</li>
             <li>PHOTOSHOP</li>

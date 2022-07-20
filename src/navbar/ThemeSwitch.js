@@ -33,7 +33,7 @@ export default function ThemeSwitch({ compactSwitch }) {
     let portfolioImg = document.querySelector(".portfolio-website img");
     portfolioImg.src = require("../projects-page/img/portfolio-web-light.png");
     navbarElem.classList.remove("navbar-dark");
-    document.documentElement.style.setProperty("--main-text-color", "#000000");
+    document.documentElement.style.setProperty("--main-text-color", "#13293d");
     document.documentElement.style.setProperty("--theme-background", "#fcfcfd");
     document.documentElement.style.setProperty(
       "--theme-highlight-color",

@@ -7,8 +7,13 @@
 .navbar {
   box-shadow: 0px 7px 9px rgb(0 0 0 / 15%);
   background: var(--theme-background);
+  transition: background 0.3s ease;
 }
 
+.navbar::before {
+  background: var(--theme-background);
+  transition: background 0.3s ease;
+}
 .navbar-brand svg {
   width: 48px;
   height: 45px;
