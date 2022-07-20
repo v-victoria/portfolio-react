@@ -15,8 +15,10 @@ export default function Experience() {
                 <span className="job">{item.header}</span>
               </div>
               <div className="row">
-                <div className="col-1 skill-header">Skills</div>
-                <div className="col-5">
+                <div className="col-3 col-md-1 text-center skill-header">
+                  Skills
+                </div>
+                <div className="col-9 col-md-5">
                   <ul>
                     {item.skills.map((skill, i) => {
                       return (
@@ -28,7 +30,7 @@ export default function Experience() {
                     })}
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   {item.descriptions.map((description, k) => {
                     return <p key={k}>{description}</p>;
                   })}
