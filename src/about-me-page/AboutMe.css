@@ -10,10 +10,26 @@
   margin-bottom: 24px;
 }
 .AboutMe img {
-  width: 100%;
   padding-right: 30px;
+  width: 100%;
 }
 .AboutMe a {
   color: var(--link-color);
   text-decoration: none;
+}
+@media (max-width: 1200px) {
+  .AboutMe {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  .AboutMe img {
+    padding: 30px;
+    max-width: 360px;
+    margin: 0 auto;
+    display: block;
+  }
+  .AboutMe .info-block {
+    margin: 30px auto;
+  }
 }

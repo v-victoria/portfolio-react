@@ -76,3 +76,20 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+@media screen and (orientation: portrait) {
+  .AboutMe,
+  .Projects,
+  .Experience,
+  .Project {
+    min-height: fit-content;
+  }
+}
+
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 38px;
+    margin-top: 50px;
+    text-align: center;
+  }
+}

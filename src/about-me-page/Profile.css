@@ -12,7 +12,6 @@
 }
 .Profile h4 {
   text-align: right;
-  margin-right: 80px;
   color: var(--second-switch-accent-color);
   font-size: 1vw;
 }
@@ -21,4 +20,13 @@
 }
 .Profile i {
   margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .Profile {
+    font-size: 12px;
+  }
+  .Profile h4 {
+    font-size: 12px;
+  }
 }

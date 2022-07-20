@@ -9,10 +9,10 @@ export default function AboutMe() {
       <h3>About Me</h3>
       <div className="info-block">
         <div className="row">
-          <div className="col-4">
+          <div className="col-md-4">
             <img src={aboutMeImg} alt="personal information" />
           </div>
-          <div className="col-8">
+          <div className="col-md-8">
             <p>
               My name is <b>Victoria Martynenko</b>.
             </p>
