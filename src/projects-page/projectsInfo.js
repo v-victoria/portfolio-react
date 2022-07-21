@@ -22,7 +22,7 @@ export const projects = [
     header: "Project made on SheCodes course",
     name: "Weather App",
     description:
-      "The web app for searching weather conditions at your current location or across more than 200,000 cites around the world. View the current temperature, humidity and windspeed, and a 5-day forecast including minimum and maximum temperatures for the day.",
+      "The web app for searching weather conditions at your current location or across more than 200,000 cities around the world. View the current temperature, humidity and wind speed, and a 5-day forecast including minimum and maximum temperatures for the day.",
     tech: "Built with HTML, CSS/Bootstrap, JavaScript, API/Axios, React",
     buttons: [
       [
@@ -55,7 +55,7 @@ export const projects = [
     header: "Project made on SheCodes course",
     name: "Dictionary",
     description:
-      "Look up words in the dictionary and discover all meanings with examples and synonyms, listen to audio with correct pronunciation, phonetics and photos. All these features were implemented using React, API(axios) and bootstrap.",
+      "Look up words in the dictionary, discover all meanings with examples and synonyms, and listen to audio with correct pronunciation, phonetics and photos. All these features were implemented using React, API (axios) and bootstrap.",
     tech: "Built with HTML, CSS/Bootstrap, JavaScript, React",
     buttons: [
       [
@@ -77,7 +77,7 @@ export const projects = [
     header: "The first project on SheCodes Basic course",
     name: "Oil Paint Shop",
     description:
-      " Here you can find information about oil paints, their production, history and place an order.",
+      "Here you can find information about oil paints, their production, history and place an order.",
     tech: "Built with HTML and CSS",
     buttons: [
       [
