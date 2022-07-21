@@ -48,8 +48,9 @@ export default function AboutMe() {
             </p>
             <p>
               I completed the SheCodes courses towards{" "}
-              <b>Full Stack Developer</b> and completed several projects during
-              the course, which can be viewed in more detail on this page.
+              <b>Front-end Web Developer</b> and completed several projects
+              during the course, which can be viewed in more detail on this
+              page.
             </p>
           </div>
         </div>
