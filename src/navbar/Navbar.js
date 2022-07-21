@@ -69,7 +69,7 @@ export default function Navbar() {
     <div className="Navbar">
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
-          <a className="navbar-brand mt-2" href="#home">
+          <a className="navbar-brand mt-2" href="/">
             <Logo />
           </a>
           <div className="reverse">
@@ -89,7 +89,7 @@ export default function Navbar() {
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav">
-                <a className="nav-link" aria-current="page" href="#home">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
                 </a>
                 <a
