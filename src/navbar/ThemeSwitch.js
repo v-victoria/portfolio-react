@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ThemeSwitch.css";
-import { ReactComponent as MoonIcon } from "../svg/moon.svg";
-import { ReactComponent as SunIcon } from "../svg/sun.svg";
 
 export default function ThemeSwitch({ compactSwitch }) {
   const [isEnabled, setIsEnabled] = useState(false);
@@ -80,9 +78,9 @@ export default function ThemeSwitch({ compactSwitch }) {
       <div className="ThemeSwitch">
         <button onClick={toggleState}>
           {isEnabled ? (
-            <SunIcon className="sun" />
+            <i className="fa-solid fa-sun"></i>
           ) : (
-            <MoonIcon className="moon" />
+            <i className="fa-solid fa-moon"></i>
           )}
         </button>
       </div>
@@ -99,8 +97,8 @@ export default function ThemeSwitch({ compactSwitch }) {
           />
           <label htmlFor="switch">
             <div className="icons">
-              <SunIcon className="sun" />
-              <MoonIcon className="moon" />
+              <i className="fa-solid fa-sun"></i>
+              <i className="fa-solid fa-moon"></i>
             </div>
           </label>
         </div>
