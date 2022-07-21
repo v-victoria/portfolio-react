@@ -29,7 +29,7 @@ export const projects = [
         {
           style: "fill",
           name: "Launch project",
-          href: "https://lively-brigadeiros-7f1f9b.netlify.app/",
+          href: "https://vm-weather-app.netlify.app/",
         },
         {
           style: "github",
@@ -40,7 +40,7 @@ export const projects = [
         {
           style: "fill",
           name: "Launch React project",
-          href: "https://legendary-narwhal-936888.netlify.app/",
+          href: "https://vm-weather-app-react.netlify.app/",
         },
         {
           style: "github",
@@ -62,7 +62,7 @@ export const projects = [
         {
           style: "fill",
           name: "Launch project",
-          href: "https://friendly-sorbet-75c8cf.netlify.app/",
+          href: "https://vm-dictionary-app-react.netlify.app/",
         },
         {
           style: "github",
@@ -84,7 +84,7 @@ export const projects = [
         {
           style: "fill",
           name: "Launch project",
-          href: "https://monumental-meringue-9d0428.netlify.app/",
+          href: "https://vm-oil-paint-shop.netlify.app/",
         },
       ],
     ],

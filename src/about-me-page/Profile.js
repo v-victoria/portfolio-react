@@ -47,7 +47,7 @@ export default function Profile() {
               <i className="fa-solid fa-laptop-code"></i>SheCodes
             </div>
             <div className="col-6">
-              <i className="fa-solid fa-briefcase"></i>full stack web developer
+              <i className="fa-solid fa-briefcase"></i>front-end web developer
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ export default function HomePage() {
           <h2>
             I'm a{" "}
             <span className="profession text-underline-fist-color">
-              Full Stack Developer
+              Front-end Developer
             </span>
             <br />
             based in England.
