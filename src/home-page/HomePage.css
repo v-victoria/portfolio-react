@@ -1,9 +1,9 @@
-.HomePage h1 {
+.HomePage .name-block {
   font-size: 3.33vw;
   margin-bottom: 6.5vw;
 }
 
-.HomePage h2 {
+.HomePage .profession-block {
   font-size: 4.63vw;
   line-height: 123%;
 }
@@ -47,10 +47,12 @@
   font-size: 3.07vw;
   color: var(--first-accent-color);
   margin-bottom: 5.2vw;
+  display: inline;
 }
 
 .HomePage .profession {
   font-size: 4.35vw;
+  display: inline;
 }
 
 .HomePage i {

@@ -7,17 +7,17 @@ export default function HomePage() {
     <div className="HomePage" id="home">
       <div className="center-block">
         <div className="text-block">
-          <h1>
-            Hello, my name is <span className="name">Victoria</span>.
-          </h1>
-          <h2>
+          <div className="name-block">
+            Hello, my name is <h2 className="name">Victoria</h2>.
+          </div>
+          <div className="profession-block">
             I'm a{" "}
-            <span className="profession text-underline-fist-color">
+            <h1 className="profession text-underline-fist-color">
               Front-end Developer
-            </span>
+            </h1>
             <br />
             based in England.
-          </h2>
+          </div>
         </div>
         <img src={homeImg} alt="homepage girl" />
       </div>

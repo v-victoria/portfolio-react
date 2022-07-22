@@ -22,13 +22,13 @@ export const projects = [
     header: "Project made on SheCodes course",
     name: "Weather App",
     description:
-      "The web app for searching weather conditions at your current location or across more than 200,000 cities around the world. View the current temperature, humidity and wind speed, and a 5-day forecast including minimum and maximum temperatures for the day.",
+      "The web app for searching weather conditions at your current location or across more than 200,000 cities around the world. View the current temperature, humidity and wind speed, and a 5-day forecast including minimum and maximum temperatures for the day. The project was coded in two versions: Vanilla JavaScript and React.",
     tech: "Built with HTML, CSS/Bootstrap, JavaScript, API/Axios, React",
     buttons: [
       [
         {
           style: "fill",
-          name: "Launch project",
+          name: "Launch Vanilla project",
           href: "https://vm-weather-app.netlify.app/",
         },
         {

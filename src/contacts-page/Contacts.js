@@ -38,7 +38,8 @@ export default function Contacts() {
           </a>
         </div>
         <div className="copyright">
-          © 2022. This website was coded by Victoria Martynenko, and it is{" "}
+          © 2022. This website was designed and coded by Victoria Martynenko,
+          and it is{" "}
           <a
             href="https://github.com/v-victoria/portfolio-react"
             title="Link to my GitHub"
