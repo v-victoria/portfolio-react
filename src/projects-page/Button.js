@@ -3,7 +3,7 @@ import "./Button.css";
 
 export default function Button({ button }) {
   return (
-    <div className="Button col">
+    <div className="Button col-12 col-sm col-md-6">
       <a
         href={button.href}
         className={"btn-" + button.style}
