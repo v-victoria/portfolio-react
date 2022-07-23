@@ -12,21 +12,25 @@
   padding: 0.8vw;
   border: 2px solid var(--first-accent-color);
   border-radius: 0.62vw;
+  font-weight: 700;
 }
 
 .Button .btn-fill {
   background: var(--first-accent-color);
   color: var(--footer-text-color);
+  transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
 }
 .Button .btn-fill:hover {
-  color: var(--footer-text-color);
+  color: var(--link-color);
+  background: var(--theme-background);
 }
 .Button .btn-transparent {
   color: var(--first-accent-color);
   background: var(--theme-background);
+  transition: color 0.15s ease-in-out;
 }
 .Button .btn-transparent:hover {
-  color: var(--first-accent-color);
+  color: var(--link-color);
 }
 .Button i {
   font-size: 3.9vw;
@@ -38,7 +42,7 @@
   .Button .btn-transparent {
     font-size: 14px;
     height: 45px;
-    border: 1px solid var(--first-accent-color);
+    border: 2px solid var(--first-accent-color);
     border-radius: 8px;
     padding: 10px 0;
   }

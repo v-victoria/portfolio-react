@@ -93,10 +93,10 @@
 
 /* Homepage portrait orientation screen responsive */
 @media screen and (orientation: portrait) {
-  .HomePage h1 {
+  .HomePage .name-block {
     font-size: 5vw;
   }
-  .HomePage h2 {
+  .HomePage .profession-block {
     font-size: 6.5vw;
   }
   .HomePage .name {

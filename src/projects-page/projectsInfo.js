@@ -10,7 +10,8 @@ export const projects = [
       [
         { style: "fill", name: "You are here", href: "/" },
         {
-          style: "github",
+          style: "transparent",
+          name: "GitHub",
           href: "https://github.com/v-victoria/portfolio-react",
         },
       ],
@@ -32,7 +33,8 @@ export const projects = [
           href: "https://vm-weather-app.netlify.app/",
         },
         {
-          style: "github",
+          style: "transparent",
+          name: "GitHub",
           href: "https://github.com/v-victoria/Weather-App-SheCodes",
         },
       ],
@@ -43,7 +45,8 @@ export const projects = [
           href: "https://vm-weather-app-react.netlify.app/",
         },
         {
-          style: "github",
+          style: "transparent",
+          name: "GitHub",
           href: "https://github.com/v-victoria/weather-app-react",
         },
       ],
@@ -65,7 +68,8 @@ export const projects = [
           href: "https://vm-dictionary-app-react.netlify.app/",
         },
         {
-          style: "github",
+          style: "transparent",
+          name: "GitHub",
           href: "https://github.com/v-victoria/dictionary-react",
         },
       ],
