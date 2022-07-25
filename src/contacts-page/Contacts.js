@@ -24,16 +24,29 @@ export default function Contacts() {
           <span className="email">i.v.v@live.com</span>
         </div>
         <div className="contact-icons">
-          <a href="/">
+          <a
+            href={require("./CV.pdf")}
+            download="CV - Junior Front-end Developer - Victoria Martynenko"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={require("../svg/cv-download.svg").default}
               alt="CV download icon"
             />
           </a>
-          <a href="/">
+          <a
+            href="https://linkedin.com/in/victoria-martynenko"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="/">
+          <a
+            href="https://github.com/v-victoria"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-github-square"></i>
           </a>
         </div>
