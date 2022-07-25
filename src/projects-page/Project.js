@@ -23,13 +23,13 @@ export default function Project({ project }) {
         <Fade bottom delay={400}>
           <h6>{project.header}</h6>
         </Fade>
-        <Fade bottom delay={600}>
+        <Fade bottom delay={500}>
           <h5>{project.name}</h5>
         </Fade>
-        <Fade bottom delay={800}>
+        <Fade bottom delay={600}>
           <p className="project-description">{project.description}</p>
         </Fade>
-        <Fade bottom delay={1000}>
+        <Fade bottom delay={700}>
           <p className="tech-features">{project.tech}</p>
         </Fade>
         {project.buttons.map((buttonsRow, index) => {
