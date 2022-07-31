@@ -1,5 +1,26 @@
 export const projects = [
   {
+    class: "3d-portfolio-website",
+    img: "./img/portfolio-art.png",
+    name: "3D Artist Portfolio Website",
+    description: "Portfolio site with examples of my projects as a 3D Artist.",
+    tech: "Built with HTML, CSS, JavaScript, React",
+    buttons: [
+      [
+        {
+          style: "fill",
+          name: "Launch project",
+          href: "http://victoria-martynenko.art/",
+        },
+        {
+          style: "transparent",
+          name: "GitHub",
+          href: "https://github.com/v-victoria/3d-portfolio-react",
+        },
+      ],
+    ],
+  },
+  {
     class: "portfolio-website",
     img: "./img/portfolio-web-light.png",
     name: "Portfolio Website",

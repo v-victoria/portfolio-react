@@ -49,7 +49,7 @@ export default function AboutMe() {
                 Most of the time I worked as a <b>3D Artist</b> in the field of
                 Architectural Visualization. You can see my work in my{" "}
                 <a
-                  href="https://victoriamartynenko.wixsite.com/portfolio"
+                  href="http://victoria-martynenko.art/"
                   target="_blank"
                   rel="noreferrer"
                 >
