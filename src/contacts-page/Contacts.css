@@ -80,7 +80,7 @@
   text-decoration: none;
 }
 .Contacts .contact-icons img {
-  height: 3.6vw;
+  width: 3.5vw;
 }
 
 .Contacts .copyright {
@@ -109,7 +109,7 @@
     font-size: 5vh;
   }
   .Contacts .contact-icons img {
-    height: 4.5vh;
+    width: 4.4vh;
   }
   .Contacts .copyright {
     font-size: 1.8vh;
