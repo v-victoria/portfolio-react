@@ -27,11 +27,9 @@ export default function Contacts() {
       </div>
       <div className="contact-content">
         <div className="email-info">
-          <Zoom delay={400}>
+          <Flip top delay={600}>
             <a href="mailto:i.v.v@live.com">Please do contact me</a>
             <span> at </span>
-          </Zoom>
-          <Flip top delay={600}>
             <span className="email">i.v.v@live.com</span>
           </Flip>
         </div>
@@ -53,14 +51,20 @@ export default function Contacts() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-linkedin"></i>
+              <img
+                src={require("../svg/linkedin-white.svg").default}
+                alt="LinkedIn icon"
+              />
             </a>
             <a
               href="https://github.com/v-victoria"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-github-square"></i>
+              <img
+                src={require("../svg/github.svg").default}
+                alt="GitHub icon"
+              />
             </a>
           </div>
         </Zoom>
