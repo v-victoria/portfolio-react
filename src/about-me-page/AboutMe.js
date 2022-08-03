@@ -47,7 +47,7 @@ export default function AboutMe() {
             <Fade bottom delay={600}>
               <p>
                 Most of the time I worked as a <b>3D Artist</b> in the field of
-                Architectural Visualization. You can see my work in my{" "}
+                Architectural Visualisation. You can see my work in my{" "}
                 <a
                   href="http://victoria-martynenko.art/"
                   target="_blank"

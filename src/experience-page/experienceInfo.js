@@ -1,7 +1,7 @@
 export const experience = [
   {
     year: "2016-2022",
-    header: "3D Artist | Architectural Visualizer",
+    header: "3D Artist | Architectural Visualiser",
     descriptions: [
       "Working as a 3D artist taught me a lot. The need to work with different clients and tasks helped me develop the skills to identify needs, objectives and what final result the client expects to see from the work done.",
       "I have experience both with customers directly and working in a team remotely and in the office.",

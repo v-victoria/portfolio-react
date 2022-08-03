@@ -80,7 +80,7 @@ export const projects = [
     name: "Dictionary",
     description:
       "Look up words in the dictionary, discover all meanings with examples and synonyms, and listen to audio with correct pronunciation, phonetics and photos. All these features were implemented using React, API (axios) and bootstrap.",
-    tech: "Built with HTML, CSS/Bootstrap, JavaScript, React",
+    tech: "Built with HTML, CSS/Bootstrap, JavaScript, API/Axios, React",
     buttons: [
       [
         {
