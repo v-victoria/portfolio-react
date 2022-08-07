@@ -79,17 +79,15 @@ export default function Profile() {
                   <li>JAVASCRIPT</li>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>REACT</li>
                 </ul>
               </div>
             </Fade>
             <Fade bottom delay={600}>
               <div className="col-4 col-sm-3">
                 <ul>
-                  <li>NODE JS</li>
+                  <li>REACT</li>
                   <li>API</li>
                   <li>Hosting</li>
-                  <li>Flexbox</li>
                 </ul>
               </div>
             </Fade>
@@ -98,6 +96,7 @@ export default function Profile() {
                 <ul>
                   <li>SEO</li>
                   <li>Responsive</li>
+                  <li>Flexbox</li>
                 </ul>
               </div>
             </Fade>
